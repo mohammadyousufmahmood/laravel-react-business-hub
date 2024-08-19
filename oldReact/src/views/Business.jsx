@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import axiosClient from '../axios-client';
 import { Link } from 'react-router-dom';
+import { useStateContext } from '../context/ContextProvider';
 
 export default function Business() {
 const [businesses, setBusinesses] = useState([]);
 const [loading, setLoading] = useState();
+const {setNotification} = useStateContext();
 
   // useEffect to fetch data from API
   useEffect(() => {
@@ -23,6 +25,23 @@ const [loading, setLoading] = useState();
         setLoading(false);
         console.log(err);
     });
+  }
+
+  const onDeleteClick = (business) => {
+
+    if(!window.confirm('Are you sure you want to delete this business?')){
+      return 
+    }
+    console.log(`this is a business${business.id}`);
+    
+    axiosClient.delete(`/businesses/${business.id}`)
+    .then(()=> {
+      setNotification('Business is succesfully deleted')
+      console.log('sucess on delete');
+      getBusinesses()
+      
+    })
+    
   }
 
   if (loading) {
@@ -108,7 +127,7 @@ return (
                   <td>
                     <Link className="btn-edit" to={'/businesses/' + business.id}>Edit</Link>
                     &nbsp;
-                    <button className="btn-delete" onClick={() => onDeleteClick(business)}>Delete</button>
+                    <button className="btn-delete" onClick={(ev) => onDeleteClick(business)}>Delete</button>
                   </td>
                 </tr>
               ))}

@@ -11,6 +11,8 @@ import Users from "./views/Users";
 import UserForm from "./views/UserForm";
 import WomenBusiness from "./views/WomenBusiness.jsx";
 import Business from "./views/Business.jsx";
+import Blog from "./views/Blog.jsx";
+import BusinessForm from "./views/BusinessForm.jsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
         path: "/users/:id",
         element: <UserForm key="userUpdate" />,
       },
+      {
+        path: "/businesses/new",
+        element: <BusinessForm key="businessCreate" />,
+      },
+      {
+        path: "/businesses/:id",
+        element: <BusinessForm key="businessUpdate" />,
+      },
     ],
   },
   {
@@ -66,6 +76,10 @@ const router = createBrowserRouter([
       {
         path: "/signup",
         element: <Signup />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
     ],
   },

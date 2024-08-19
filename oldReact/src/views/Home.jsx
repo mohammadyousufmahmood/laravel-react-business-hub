@@ -23,8 +23,8 @@ export default function Home() {
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Afghanistan Business Hub</span></h2>
           <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <SearchBox></SearchBox>
           </div>
+              <SearchBox></SearchBox>
       </div>
 
       {/* <!-- Slide 2 --> */}
@@ -33,9 +33,9 @@ export default function Home() {
           <h2 className="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
           <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
           {/* <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> */}
-          <SearchBox></SearchBox>
 
         </div>
+          <SearchBox></SearchBox>
       </div>
 
       {/* <!-- Slide 3 --> */}
@@ -43,8 +43,8 @@ export default function Home() {
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
           <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <SearchBox></SearchBox>
         </div>
+          <SearchBox></SearchBox>
       </div>
 
       <a className="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -69,32 +69,32 @@ export default function Home() {
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div className="icon-box">
               <div className="icon"><i className="bx bxl-dribbble"></i></div>
-              <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-              <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 className="title"><a href="">Collaborative Network</a></h4>
+              <p className="description">Connect and collaborate with industry leaders, partners, and peers to expand your business opportunities.</p>
             </div>
           </div>
 
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-file"></i></div>
-              <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4 className="title"><a href="">Expert Guidance</a></h4>
+              <p className="description">Receive professional advice and support to help your business grow and thrive in a competitive market.</p>
             </div>
           </div>
 
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="">Magni Dolores</a></h4>
-              <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 className="title"><a href="">Comprehensive Resources</a></h4>
+              <p className="description">Access a wide range of tools, services, and expertise to enhance and streamline your business operations.</p>
             </div>
           </div>
 
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-layer"></i></div>
-              <h4 className="title"><a href="">Nemo Enim</a></h4>
-              <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 className="title"><a href="">Innovative Solutions</a></h4>
+              <p className="description">Tailored strategies designed to address your unique business challenges and drive long-term success.</p>
             </div>
           </div>
 
@@ -152,28 +152,28 @@ export default function Home() {
           <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
 
             <div className="content">
-              <h3>Something related women <strong>velit pariatur architecto aut nihil</strong></h3>
+              <h3><strong>Businesses Lead By Women</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit */}
               </p>
             </div>
 
             <div className="accordion-list">
               <ul>
                 <li data-aos="fade-up" data-aos-delay="100">
-                  <a data-bs-toggle="collapse" className="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" className="collapse" data-bs-target="#accordion-list-1"><span>01</span> Zan Magazine <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" className="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    Founded by Shahla Sherkat, Zan Magazine was a pioneering women's publication in Iran that focused on women’s issues, rights, and empowerment. Though it faced many challenges, it played a significant role in advocating for women's rights in the country.
                     </p>
                   </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="200">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" className="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" className="collapsed"><span>02</span> Sehat Kahani <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" className="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    Co-founded by Dr. Sara Saeed Khurram, Sehat Kahani is a telemedicine platform that connects female doctors, who are often unable to practice due to cultural constraints, with patients in remote areas, empowering both the doctors and the patients.
                     </p>
                   </div>
                 </li>

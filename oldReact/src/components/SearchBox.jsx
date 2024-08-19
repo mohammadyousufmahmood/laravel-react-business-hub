@@ -16,18 +16,18 @@ export default function SearchBox() {
           borderRadius: '50px',
           border: '2px solid #ffd41d',
           color: '#fff',
-          // backgroundColor: 'rgba(20, 130, 200, 0.3)', // Faded background color
-          backgroundColor: '#156eba38',
+          backgroundColor: 'rgba(20, 130, 200, 0.5)', // Faded background color
+          // backgroundColor: '#156eba38',
         },
         searchInput: {
-          flex: 1,
+          flex: 6,
         },
         locationInput: {
           flex: 1,
         },
         button: {
           marginTop: '-15px',
-          padding: '10px 20px',
+          padding: '10px 5px',
           
           borderRadius: '50px',
           border: '2px solid #ffd41d',
@@ -41,7 +41,7 @@ export default function SearchBox() {
     <div style={styles.container}>
       <input className="animate__animated animate__fadeInUp"
         type="text" 
-        placeholder="Search" 
+        placeholder="Enter Business Name" 
         style={{ ...styles.input, ...styles.searchInput  , '::placeholder': {
             color: 'rgba(255, 255, 255, 1) !important' // White color with 70% opacity
           }}} 

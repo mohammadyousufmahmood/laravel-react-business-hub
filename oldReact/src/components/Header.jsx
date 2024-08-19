@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const   Header = () => {
     return (  
@@ -18,7 +19,7 @@ const   Header = () => {
                 <li><a className="nav-link scrollto " href="#portfolio">Business</a></li>
                 <li><a className="nav-link scrollto" href="#team">Entrepreneurs</a></li>
                 {/* <!-- <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li> --> */}
-                <li><a href="blog.html">Blog</a></li>
+                <li><Link to="/blog">Blog</Link></li>
                 {/* <!-- <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                   <ul>
                     <li><a href="#">Drop Down 1</a></li>
